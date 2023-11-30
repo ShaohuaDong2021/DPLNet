@@ -8,7 +8,7 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 
 ## Motivation
 
-![Motivation](./figs/fig1.pdf)
+![Motivation](/figs/fig1.pdf)
 
 
 ## Video Object Removal without Frame-wise Masks
