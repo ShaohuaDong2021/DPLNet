@@ -11,10 +11,10 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 ![Motivation](/figs/fig1.pdf)
 
 
-## Video Object Removal without Frame-wise Masks
+## Pipeline
 
 
-![Video Object Removal](assets/text-guided.jpg)
+![Pipeline](figs/framework.pdf)
 
 ## Demo
 
