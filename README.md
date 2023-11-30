@@ -1,5 +1,5 @@
 
-# DPLNet - Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning
+# DPLNet (Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deficiency-aware-masked-transformer-for-video/video-inpainting-on-davis)](https://paperswithcode.com/sota/video-inpainting-on-davis?p=deficiency-aware-masked-transformer-for-video)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deficiency-aware-masked-transformer-for-video/video-inpainting-on-youtube-vos)](https://paperswithcode.com/sota/video-inpainting-on-youtube-vos?p=deficiency-aware-masked-transformer-for-video)
