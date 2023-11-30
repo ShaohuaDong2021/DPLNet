@@ -6,10 +6,10 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 
 
 
-## Inpainting Pipeline
+## Motivation
 
 
-![Inpainting Pipeline](assets/pipeline.jpg)
+![Motivation](figs/fig1.pdf)
 
 
 
