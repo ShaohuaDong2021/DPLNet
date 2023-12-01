@@ -10,3 +10,6 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 
 ## Framework
 ![Framework](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/framework.jpg)
+
+## Results
+![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/image.png)
