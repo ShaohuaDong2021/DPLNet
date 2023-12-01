@@ -6,7 +6,7 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 
 
 ## Motivation
-<img src="https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/fig1.jpg" alt="Editor" width="600" height="350">
+<img src="https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/fig1.jpg" alt="Editor" width="550" height="350">
 
 ## Framework
 ![Framework](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/framework.jpg)
