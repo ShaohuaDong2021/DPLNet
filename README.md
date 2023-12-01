@@ -6,6 +6,9 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 
 
 ## Motivation
+Previous multimodal methods often needs to fully fine-tune the entire network, which is training-costly due to massive parameter updates in the feature extraction and fusion, and thus increases the deployment burden of multimodal semantic segmentation. In this paper, we propose the effective dual-prompt
+learning paradigm for training-efficient multimodal semantic segmentation.
+
 <img src="https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/fig1.png" alt="Editor" width="550" height="350">
 
 ## Framework
