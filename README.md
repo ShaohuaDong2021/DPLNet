@@ -12,4 +12,8 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 ![Framework](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/framework.jpg)
 
 ## Results
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/image.png)
+### NYU-V2
+![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/nyu.png)
+
+### SUN-RGBD
+![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/sunrgbd.png)
