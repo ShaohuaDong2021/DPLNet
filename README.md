@@ -8,7 +8,7 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 
 ## Motivation
 
-[Motivation](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/fig1.pdf)
+![Motivation](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/fig1.pdf)
 
 
 ## Pipeline
