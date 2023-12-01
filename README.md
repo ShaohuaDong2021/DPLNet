@@ -13,7 +13,7 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 
 ## Results
 ### NYU-V2
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/nyu.png)
+![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/nyuv2.png)
 
 ### SUN-RGBD
 ![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/sunrgbd.png)
