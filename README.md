@@ -8,17 +8,5 @@ Welcome to the official code repository for [**Efficient Multimodal Semantic Seg
 ## Pipeline
 
 
-![Pipeline]([figs/framework.pdf](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/fig1.jpg))
+![Pipeline](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/fig1.jpg))
 
-## Demo
-
-
-![Demo](assets/demo.jpg)
-
-
-
-
-## Qualitative Comparisons
-
-
-![Qualitative Comparisons](assets/qualitative.jpg)
