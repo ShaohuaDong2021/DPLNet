@@ -29,7 +29,10 @@ learning paradigm, dubbed DPLNet, for training-efficient multimodal semantic seg
 ![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/PST900.png)
 
 ## RGB-D SOD Results
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/RGBD SOD.png)
+![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/RGBDSOD.png)
 
 ## RGB-T SOD Results
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/RGBT SOD.png)
+![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/RGBTSOD.png)
+
+## RGB-T Video Semantic Segmentation Results
+![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/MVSeg.png)
