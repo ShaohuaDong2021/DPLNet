@@ -14,9 +14,16 @@ learning paradigm, dubbed DPLNet, for training-efficient multimodal semantic seg
 ## Framework
 ![Framework](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/framework.png)
 
-## Results
+## RGBD Semantic Segmentation Results
 ### NYU-V2
 ![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/nyuv2.png)
 
 ### SUN-RGBD
 ![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/sunrgbd.png)
+
+## RGBD Semantic Segmentation Results
+### MFNet
+![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/mfnet.png)
+
+### PST900
+![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/PST900.png)
