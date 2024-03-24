@@ -15,6 +15,9 @@ learning paradigm, dubbed DPLNet, for training-efficient multimodal semantic seg
 Overview architecture of the proposed DPLNet, which adapts a frozen pre-trained model using two specially designed prompting learning modules, MPG for multimodal prompt generation and MFA for multimodal feature adaption, with only a few learnable parameters to achieve multimodal semantic segmentation in a training-efficient way.
 ![Framework](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/framework.png)
 
+## Visualization
+<img src="https://github.com/ShaohuaDong2021/DPLNet/blob/main/Visualization_video.mp4" alt="Editor" width="500">
+
 ## RGBD Semantic Segmentation Results
 ### NYU-V2
 ![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/nyuv2.png)
