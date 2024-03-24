@@ -16,7 +16,8 @@ Overview architecture of the proposed DPLNet, which adapts a frozen pre-trained 
 ![Framework](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/framework.png)
 
 ## Visualization
-<img src="https://github.com/ShaohuaDong2021/DPLNet/blob/main/Visualization_video.mp4" alt="Editor" width="500">
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://github.com/ShaohuaDong2021/DPLNet/blob/main/Visualization_video.mp4)
+
 
 ## RGBD Semantic Segmentation Results
 ### NYU-V2
