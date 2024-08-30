@@ -348,7 +348,7 @@ We provide our trained checkpoints for results reproducibility.
 </table>
 
 ## Acknowledgement
-This repo is partly based on the open-source release from [STCAT](https://github.com/jy0205/STCAT) and the evaluation metric implementation is borrowed from [TubeDETR](https://github.com/antoyang/TubeDETR) for a fair comparison.
+This repo is partly based on our previous open-source release from [EGFNet](https://github.com/ShaohuaDong2021/EGFNet).
 
 ## Citation
 ⭐ If you find this repository useful, please consider giving it a star and citing it:
