@@ -348,7 +348,7 @@ We provide our trained checkpoints for results reproducibility.
 </table>
 
 ## Acknowledgement
-This repo is partly based on our previous open-source release from [EGFNet](https://github.com/ShaohuaDong2021/EGFNet).
+This repository is partially based on our previous open-source release [EGFNet](https://github.com/ShaohuaDong2021/EGFNet).
 
 ## Citation
 ⭐ If you find this repository useful, please consider giving it a star and citing it:
