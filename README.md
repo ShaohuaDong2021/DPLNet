@@ -207,6 +207,16 @@ We provide our trained checkpoints for results reproducibility.
 ## Experiments
 🎏 CG-STVG achieves state-of-the-art performance on three challenging benchmarks, including [**HCSTVG-v1**](https://github.com/tzhhhh123/HC-STVG), [**HCSTVG-v2**](https://github.com/tzhhhh123/HC-STVG), and [**VidSTG**](https://github.com/Guaranteer/VidSTG-Dataset), as shown below. Note that, the baseline is our CG-STVG without context generation and refinement.
 
+### Results on NYUDv2
+|  Methods   | Backbone | Total Params | Learnable Params |mIoU|
+|  ----:  | :----:  | :----: | :----: |:----: |
+|CMX-B5 (MS) | MiT-B5 | 181.1 |   181.1 | 26.8 | 56.9|
+|CMXNeXt (MS) | MiT-B4 |  119.6 |  119.6 |  56.9|
+|DFormer-L (MS) | DFormer-L | 39.0 | 39.0 | 57.2|
+|DPLNet (SS)(Ours) | MiT-B5 | **7.15** | **7.15** | 58.3|
+|DPLNet (MS)(Ours)| MiT-B5 | **7.15** | **7.15** | 59.3|
+
+
 ### Results on HCSTVG-v1
 |  Methods   | M_tIoU | m_vIoU | vIoU@0.3 | vIoU@0.5  |
 |  ----:  | :----:  | :----: | :----: | :----: |
