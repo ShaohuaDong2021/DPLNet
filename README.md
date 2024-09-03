@@ -1,66 +1,18 @@
+# Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning (DPLNet)
+🔮 Welcome to the official code repository for [Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning](https://arxiv.org/pdf/2312.00360.pdf). We're excited to share our work with you, please bear with us as we prepare the code and demo. Stay tuned for the reveal!
 
-# DPLNet (Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning)
+🔮 Our work has been accepted by **IROS 2024 (Oral presentation)**!
 
 
-Welcome to the official code repository for [Efficient Multimodal Semantic Segmentation via Dual-Prompt Learning](https://arxiv.org/pdf/2312.00360.pdf). We're excited to share our work with you, please bear with us as we prepare the code and demo. Stay tuned for the reveal!
-
-
-## Motivation
-Previous multimodal methods often need to fully fine-tune the entire network, which are training-costly due to massive parameter updates in the feature extraction and fusion, and thus increases the deployment burden of multimodal semantic segmentation. In this paper, we propose a novel and simple yet effective dual-prompt
-learning paradigm, dubbed DPLNet, for training-efficient multimodal semantic segmentation.
+## Illustration of Idea
+💡 Previous multimodal methods often need to fully fine-tune the entire network, which are training-costly due to massive parameter updates in the feature extraction and fusion, and thus increases the deployment burden of multimodal semantic segmentation. In this paper, we propose a novel and simple yet effective dual-prompt learning paradigm, dubbed DPLNet, for training-efficient multimodal semantic segmentation.
 
 <img src="https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/fig1.png" alt="Editor" width="500">
 
 ## Framework
-Overview architecture of the proposed DPLNet, which adapts a frozen pre-trained model using two specially designed prompting learning modules, MPG for multimodal prompt generation and MFA for multimodal feature adaption, with only a few learnable parameters to achieve multimodal semantic segmentation in a training-efficient way.
 ![Framework](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/framework.png)
+Overview architecture of the proposed DPLNet, which adapts a frozen pre-trained model using two specially designed prompting learning modules, MPG for multimodal prompt generation and MFA for multimodal feature adaption, with only a few learnable parameters to achieve multimodal semantic segmentation in a training-efficient way. More details can be seen in the [**paper**](https://arxiv.org/abs/2401.01578).
 
-## Visualization
-<video src='https://github.com/ShaohuaDong2021/DPLNet/blob/main/Visualization_video.mp4' width="500"></video>
-  
-## RGBD Semantic Segmentation Results
-### NYU-V2
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/nyuv2.png)
-
-### SUN-RGBD
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/sunrgbd.png)
-
-## RGBT Semantic Segmentation Results
-### MFNet
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/mfnet.png)
-
-### PST900
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/PST900.png)
-
-## RGB-D SOD Results
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/RGBDSOD.png)
-
-## RGB-T SOD Results
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/RGBTSOD.png)
-
-## RGB-T Video Semantic Segmentation Results
-![Results](https://github.com/ShaohuaDong2021/DPLNet/blob/main/figs/MVSeg.png)
-
-
-
-[![PWC](https://img.shields.io/badge/State_of_the_Art-STVG_on_HCSTVGv1-orange?logo=AMP)](https://paperswithcode.com/sota/spatio-temporal-video-grounding-on-hc-stvg1)
-[![PWC](https://img.shields.io/badge/State_of_the_Art-STVG_on_HCSTVGv2-pink?logo=AMP)](https://paperswithcode.com/sota/spatio-temporal-video-grounding-on-hc-stvg2)
-[![PWC](https://img.shields.io/badge/State_of_the_Art-STVG_on_VidSTG-yellow?logo=AMP)](https://paperswithcode.com/sota/spatio-temporal-video-grounding-on-vidstg)
-
-# Context-Guided Spatio-Temporal Video Grounding
-🔮 Welcome to the official code repository for [**CG-STVG: Context-Guided Spatio-Temporal Video Grounding**](https://arxiv.org/abs/2401.01578). We're excited to share our work with you, please bear with us as we prepare code. Stay tuned for the reveal!
-
-## Illustration of Idea
-💡 ***A picture is worth a thousand words!*** <br>Can we explore visual context from videos to enhance target localization for STVG? Yes!
-
-![CG-STVG](https://github.com/HengLan/CGSTVG/blob/main/assets/idea.png)
-**Figure:** Illustration of and comparison between (a) existing methods that localize the target using object information from text query and (b) our CG-STVG
-that enjoys object information from text query and guidance from instance context for STVG. 
-
-## Framework
-![CG-STVG](https://github.com/HengLan/CGSTVG/blob/main/assets/framework.png)
-**Figure:** Overview of our method, which consists of a multimodal encoder for feature extraction and a context-guided decoder by cascading
-a set of decoding stages for grounding. In each decoding stage, instance context is mined (by ***ICG*** and ***ICR***) to guide query learning for better localization. More details can be seen in the [**paper**](https://arxiv.org/abs/2401.01578).
 
 ## Implementation
 
@@ -205,7 +157,7 @@ We provide our trained checkpoints for results reproducibility.
 
 
 ## Experiments
-🎏 DPLNet achieves state-of-the-art performance on challenging benchmarks, including [**NYUDv2**], [**SUN RGB-D**], [**PST900**] and [**MVSeg**] as shown below. Note that 'SS' and 'MS' refer to single-scale and multi-scale testing, respectively. Additional results can be found in our [paper](https://arxiv.org/pdf/2312.00360.pdf).
+🎏 DPLNet achieves state-of-the-art performance on challenging tasks, including RGB-D Semantic Segmentation, RGB-T Semantic Segmentation, RGB-T Video Semantic Segmentation, RGB-D SOD and RGB-T SOD. Note that 'SS' and 'MS' refer to single-scale and multi-scale testing, respectively. Additional results can be found in our [paper](https://arxiv.org/pdf/2312.00360.pdf).
 
 ### Results on NYUDv2 (RGB-D Semantic Segmentation)
 |  Methods   | Backbone | Total Params | Learnable Params |mIoU|
