@@ -205,7 +205,7 @@ We provide our trained checkpoints for results reproducibility.
 
 
 ## Experiments
-🎏 DPLNet achieves state-of-the-art performance on challenging benchmarks, including [**NYUDv2**], [**SUN RGB-D**], [**PST900**] and [**MVSeg**] as shown below. Note that 'SS' and 'MS' refer to single-scale and multi-scale testing, respectively. Additional results can be found in our paper.
+🎏 DPLNet achieves state-of-the-art performance on challenging benchmarks, including [**NYUDv2**], [**SUN RGB-D**], [**PST900**] and [**MVSeg**] as shown below. Note that 'SS' and 'MS' refer to single-scale and multi-scale testing, respectively. Additional results can be found in our [paper](https://arxiv.org/pdf/2312.00360.pdf).
 
 ### Results on NYUDv2 (RGB-D Semantic Segmentation)
 |  Methods   | Backbone | Total Params | Learnable Params |mIoU|
