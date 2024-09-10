@@ -125,11 +125,16 @@ python evaluate_nyuv2.py --logdir "MODEL PATH"
 ### Pretrained Model Weights
 We provide our trained checkpoints for results reproducibility.
 
-| Dataset | resolution | url | m_vIoU/vIoU@0.3/vIoU@0.5 | size |
-|:----:|:-----:|:-----:|:-----:|:-----:|
-| HC-STVG | 420 | [Model](https://drive.google.com/drive/folders/1f7o1t3ShAqXiYAhgHPJTlLtaDCT2aTIN)  | 38.4/61.5/36.3 | 3.4 GB |
-| HC-STVG2 | 420 | [Model](https://huggingface.co/Gstar666/CGSTVG/resolve/main/hcstvg2.pth?download=true)  | 39.5/64.5/36.3 | 3.4 GB |
-| VidSTG | 420 | [Model](https://huggingface.co/Gstar666/CGSTVG/resolve/main/vidstg.pth?download=true)  | 34.0/47.7/33.1 | 3.4 GB |
+| Dataset | url | m_vIoU/vIoU@0.3/vIoU@0.5 | 
+|:----:|:-----:|:-----:|
+| NYUv2 | [Model](https://drive.google.com/drive/folders/1f7o1t3ShAqXiYAhgHPJTlLtaDCT2aTIN)  | 38.4/61.5/36.3 |
+
+### Dataset
+We provide our trained checkpoints for results reproducibility.
+
+| Dataset | url | m_vIoU/vIoU@0.3/vIoU@0.5 | 
+|:----:|:-----:|:-----:|
+| NYUv2 | [Dataset](https://drive.google.com/drive/folders/1tief3fgaTe2hown8FRnrb9ZtsMeoWtlv)  | 38.4/61.5/36.3 |
 
 
 ## Experiments
