@@ -45,7 +45,7 @@ python train.py
 ```shell
 # run for NYUV2
 cd ./RGBD
-python evaluate_nyuv2.py --logdir "MODEL PATH"
+python evaluate.py --logdir "MODEL PATH"
 ```
 
 ## Experiments
