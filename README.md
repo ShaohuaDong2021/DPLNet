@@ -20,11 +20,8 @@ Overview architecture of the proposed DPLNet, which adapts a frozen pre-trained 
 
 The download link for the above-mentioned document is as follows:
 
-**hc-stvg**: [v1_video](https://intxyz-my.sharepoint.com/:f:/g/personal/zongheng_picdataset_com/EgIzBzuHYPtItBIqIq5hNrsBBE9cnhJDWjXuorxXMhMZGQ?e=qvsBjE), [annos](https://intxyz-my.sharepoint.com/:f:/g/personal/zongheng_picdataset_com/EgIzBzuHYPtItBIqIq5hNrsBBE9cnhJDWjXuorxXMhMZGQ?e=qvsBjE), [data_cache](https://disk.pku.edu.cn/link/AA66258EA52A1E435B815C4BC10E88925D)
+**NYUDv2**: [NYUDv2](https://drive.google.com/drive/folders/1tief3fgaTe2hown8FRnrb9ZtsMeoWtlv)
 
-**hc-stvg2**: [v2_video](https://intxyz-my.sharepoint.com/:f:/g/personal/zongheng_picdataset_com/ErqA01jikPZKnudZe6-Za9MBe17XXAxJr9ODn65Z2qGKkw?e=7vKw1U), [annos](https://intxyz-my.sharepoint.com/:f:/g/personal/zongheng_picdataset_com/ErqA01jikPZKnudZe6-Za9MBe17XXAxJr9ODn65Z2qGKkw?e=7vKw1U), [data_cache]()
-
-**vidstg**: [videos](https://disk.pku.edu.cn/link/AA93DEAF3BBC694E52ACC5A23A9DC3D03B), [vstg_annos](https://disk.pku.edu.cn/link/AA9BD598C845DC43A4B6A0D35268724E4B), [sent_annos](https://github.com/Guaranteer/VidSTG-Dataset), [data_cache](https://disk.pku.edu.cn/link/AAA0FA082DEB3D47FCA92F3BF8775EA3BC) 
 
 
 
