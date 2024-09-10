@@ -16,12 +16,20 @@ Overview architecture of the proposed DPLNet, which adapts a frozen pre-trained 
 
 ## Implementation
 
-### Dataset Preparation
-
-NYUDv2 dataset can be download here [NYUDv2](https://drive.google.com/drive/folders/1tief3fgaTe2hown8FRnrb9ZtsMeoWtlv).
-
 ### Requirements
 The code has been tested and verified using PyTorch 1.12.0 and CUDA 11.8. However, compatibility with other versions is also likely.
+
+### Dataset Preparation
+NYUDv2 dataset can be download here [NYUDv2](https://drive.google.com/drive/folders/1tief3fgaTe2hown8FRnrb9ZtsMeoWtlv).
+
+### Pretrained Model Weights Preparation
+Download the [segformer pretrained weight](https://connecthkuhk-my.sharepoint.com/personal/xieenze_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxieenze%5Fconnect%5Fhku%5Fhk%2FDocuments%2Fsegformer%2Ftrained%5Fmodels&ga=1) (i.e., "segformer.b5.640x640.ade.160k.pth").
+
+We provide our trained checkpoints for results reproducibility.
+| Dataset | url |mIoU(SS/MS)| 
+|:----:|:-----:|:-----:|
+| NYUv2 | [Model](https://drive.google.com/drive/folders/1f7o1t3ShAqXiYAhgHPJTlLtaDCT2aTIN)  | 58.3/59.3 |
+
 
 ```shell
 # Download the [segformer](https://connecthkuhk-my.sharepoint.com/personal/xieenze_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxieenze%5Fconnect%5Fhku%5Fhk%2FDocuments%2Fsegformer%2Ftrained%5Fmodels&ga=1) pretrained model in your path.  
@@ -43,13 +51,6 @@ python train.py
 cd ./RGBD
 python evaluate_nyuv2.py --logdir "MODEL PATH"
 ```
-### Pretrained Model Weights
-We provide our trained checkpoints for results reproducibility.
-
-| Dataset | url |mIoU(SS/MS)| 
-|:----:|:-----:|:-----:|
-| NYUv2 | [Model](https://drive.google.com/drive/folders/1f7o1t3ShAqXiYAhgHPJTlLtaDCT2aTIN)  | 58.3/59.3 |
-
 
 ## Experiments
 🎏 DPLNet achieves state-of-the-art performance on challenging tasks, including RGB-D Semantic Segmentation, RGB-T Semantic Segmentation, RGB-T Video Semantic Segmentation, RGB-D SOD and RGB-T SOD. Note that 'SS' and 'MS' refer to single-scale and multi-scale testing, respectively. Additional results can be found in our [paper](https://arxiv.org/pdf/2312.00360.pdf).
