@@ -17,45 +17,6 @@ Overview architecture of the proposed DPLNet, which adapts a frozen pre-trained 
 ## Implementation
 
 ### Dataset Preparation
-The used datasets are placed in `data` folder with the following structure.
-```
-data
-|_ vidstg
-|  |_ videos
-|  |  |_ [video name 0].mp4
-|  |  |_ [video name 1].mp4
-|  |  |_ ...
-|  |_ vstg_annos
-|  |  |_ train.json
-|  |  |_ ...
-|  |_ sent_annos
-|  |  |_ train_annotations.json
-|  |  |_ ...
-|  |_ data_cache
-|  |  |_ ...
-|_ hc-stvg2
-|  |_ v2_video
-|  |  |_ [video name 0].mp4
-|  |  |_ [video name 1].mp4
-|  |  |_ ...
-|  |_ annos
-|  |  |_ hcstvg_v2
-|  |  |  |_ train.json
-|  |  |  |_ test.json
-|  |  data_cache
-|  |  |_ ...
-|_ hc-stvg
-|  |_ v1_video
-|  |  |_ [video name 0].mp4
-|  |  |_ [video name 1].mp4
-|  |  |_ ...
-|  |_ annos
-|  |  |_ hcstvg_v1
-|  |  |  |_ train.json
-|  |  |  |_ test.json
-|  |  data_cache
-|  |  |_ ...
-```
 
 The download link for the above-mentioned document is as follows:
 
@@ -75,12 +36,7 @@ The used datasets are placed in `model_zoo` folder
 [roberta-base](https://huggingface.co/FacebookAI/roberta-base)
 
 ### Requirements
-The code has been tested and verified using PyTorch 2.0.1 and CUDA 11.7. However, compatibility with other versions is also likely. To install the necessary requirements, please use the commands provided below:
-
-```shell
-pip3 install -r requirements.txt
-apt install ffmpeg -y
-```
+The code has been tested and verified using PyTorch 1.12.0 and CUDA 11.8. However, compatibility with other versions is also likely.
 
 ### Training
 Please utilize the script provided below:
