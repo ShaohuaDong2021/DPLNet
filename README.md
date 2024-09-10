@@ -18,60 +18,24 @@ Overview architecture of the proposed DPLNet, which adapts a frozen pre-trained 
 
 ### Dataset Preparation
 
-The download link for the above-mentioned document is as follows:
-
-**NYUDv2**: [NYUDv2](https://drive.google.com/drive/folders/1tief3fgaTe2hown8FRnrb9ZtsMeoWtlv)
-
-
-
-
-### Model Preparation
-The used datasets are placed in `model_zoo` folder
-
-[ResNet-101](https://zenodo.org/record/4721981/files/pretrained_resnet101_checkpoint.pth?download=1), 
-[VidSwin-T](https://github.com/SwinTransformer/storage/releases/download/v1.0.4/swin_tiny_patch244_window877_kinetics400_1k.pth),
-[roberta-base](https://huggingface.co/FacebookAI/roberta-base)
+NYUDv2 dataset can be download here [NYUDv2](https://drive.google.com/drive/folders/1tief3fgaTe2hown8FRnrb9ZtsMeoWtlv).
 
 ### Requirements
 The code has been tested and verified using PyTorch 1.12.0 and CUDA 11.8. However, compatibility with other versions is also likely.
 
 ### Training
-Please utilize the script provided below:
+# run for NYUV2
 ```shell
-# run for HC-STVG
-python3 -m torch.distributed.launch \
-    --nproc_per_node=8 \
-    scripts/train_net.py \
-    --config-file "experiments/hcstvg.yaml" \
-    INPUT.RESOLUTION 420 \
-    OUTPUT_DIR output/hcstvg \
-    TENSORBOARD_DIR output/hcstvg
-
-# run for HC-STVG2
-python3 -m torch.distributed.launch \
-    --nproc_per_node=8 \
-    scripts/train_net.py \
-    --config-file "experiments/hcstvg2.yaml" \
-    INPUT.RESOLUTION 420 \
-    OUTPUT_DIR output/hcstvg2 \
-    TENSORBOARD_DIR output/hcstvg2
-
-# run for VidSTG
-python3 -m torch.distributed.launch \
-    --nproc_per_node=8 \
-    scripts/train_net.py \
-    --config-file "experiments/vidstg.yaml" \
-    INPUT.RESOLUTION 420 \
-    OUTPUT_DIR output/vidstg \
-    TENSORBOARD_DIR output/vidstg
+# run for NYUV2
+cd ./RGBD
+python train.py
 ```
-For additional training options, such as utilizing different hyper-parameters, please adjust the configurations as needed:
-`experiments/hcstvg.yaml`, `experiments/hcstvg2.yaml` and `experiments/vidstg.yaml`.
 
 ### Evaluation
 Please utilize the script provided below:
 ```shell
 # run for NYUV2
+cd ./RGBD
 python evaluate_nyuv2.py --logdir "MODEL PATH"
 ```
 
