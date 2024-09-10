@@ -44,7 +44,7 @@ python train.py
 ### Evaluation
 ```shell
 # run for NYUV2,put the pretrained weight on your folder.
-# sample: python evaluate.py --logdir /mnt/DATA/shaohuadong/DPLNet/NYUDv2
+# example: python evaluate.py --logdir /mnt/DATA/shaohuadong/DPLNet/NYUDv2
 cd ./RGBD
 python evaluate.py --logdir "MODEL PATH"
 ```
