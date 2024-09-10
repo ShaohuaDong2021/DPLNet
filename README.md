@@ -24,7 +24,6 @@ NYUDv2 dataset can be download here [NYUDv2](https://drive.google.com/drive/fold
 The code has been tested and verified using PyTorch 1.12.0 and CUDA 11.8. However, compatibility with other versions is also likely.
 
 ### Training
-# run for NYUV2
 ```shell
 # run for NYUV2
 cd ./RGBD
@@ -32,26 +31,17 @@ python train.py
 ```
 
 ### Evaluation
-Please utilize the script provided below:
 ```shell
 # run for NYUV2
 cd ./RGBD
 python evaluate_nyuv2.py --logdir "MODEL PATH"
 ```
-
 ### Pretrained Model Weights
 We provide our trained checkpoints for results reproducibility.
 
-| Dataset | url | m_vIoU/vIoU@0.3/vIoU@0.5 | 
+| Dataset | url |mIoU(SS/MS)| 
 |:----:|:-----:|:-----:|
-| NYUv2 | [Model](https://drive.google.com/drive/folders/1f7o1t3ShAqXiYAhgHPJTlLtaDCT2aTIN)  | 38.4/61.5/36.3 |
-
-### Dataset
-We provide our trained checkpoints for results reproducibility.
-
-| Dataset | url | m_vIoU/vIoU@0.3/vIoU@0.5 | 
-|:----:|:-----:|:-----:|
-| NYUv2 | [Dataset](https://drive.google.com/drive/folders/1tief3fgaTe2hown8FRnrb9ZtsMeoWtlv)  | 38.4/61.5/36.3 |
+| NYUv2 | [Model](https://drive.google.com/drive/folders/1f7o1t3ShAqXiYAhgHPJTlLtaDCT2aTIN)  | 58.3/59.3 |
 
 
 ## Experiments
