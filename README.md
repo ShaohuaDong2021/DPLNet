@@ -23,18 +23,14 @@ The code has been tested and verified using PyTorch 1.12.0 and CUDA 11.8. Howeve
 NYUDv2 dataset can be download here [NYUDv2](https://drive.google.com/drive/folders/1tief3fgaTe2hown8FRnrb9ZtsMeoWtlv).
 
 ### Pretrained Model Weights Preparation
-Download the [segformer pretrained weight](https://connecthkuhk-my.sharepoint.com/personal/xieenze_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxieenze%5Fconnect%5Fhku%5Fhk%2FDocuments%2Fsegformer%2Ftrained%5Fmodels&ga=1) (i.e., "segformer.b5.640x640.ade.160k.pth").
-
 We provide our trained checkpoints for results reproducibility.
 | Dataset | url |mIoU(SS/MS)| 
 |:----:|:-----:|:-----:|
 | NYUv2 | [Model](https://drive.google.com/drive/folders/1f7o1t3ShAqXiYAhgHPJTlLtaDCT2aTIN)  | 58.3/59.3 |
 
-
+### Put [segformer pre-trained weight](https://connecthkuhk-my.sharepoint.com/personal/xieenze_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxieenze%5Fconnect%5Fhku%5Fhk%2FDocuments%2Fsegformer%2Ftrained%5Fmodels&ga=1). on the following file.
 ```shell
-# Download the [segformer](https://connecthkuhk-my.sharepoint.com/personal/xieenze_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxieenze%5Fconnect%5Fhku%5Fhk%2FDocuments%2Fsegformer%2Ftrained%5Fmodels&ga=1) pretrained model in your path.  
-cd ./RGBD
-python train.py
+vim ./RGBD/toolbox/models/segformermodels/backbones/mix_transformer_ourprompt_proj.py   # line 457
 ```
 
 
