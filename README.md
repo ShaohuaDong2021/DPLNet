@@ -23,6 +23,13 @@ NYUDv2 dataset can be download here [NYUDv2](https://drive.google.com/drive/fold
 ### Requirements
 The code has been tested and verified using PyTorch 1.12.0 and CUDA 11.8. However, compatibility with other versions is also likely.
 
+```shell
+# Download the [segformer](https://connecthkuhk-my.sharepoint.com/personal/xieenze_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxieenze%5Fconnect%5Fhku%5Fhk%2FDocuments%2Fsegformer%2Ftrained%5Fmodels&ga=1) pretrained model in your path.  
+cd ./RGBD
+python train.py
+```
+
+
 ### Training
 ```shell
 # run for NYUV2
