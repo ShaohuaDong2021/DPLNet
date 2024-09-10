@@ -28,7 +28,7 @@ We provide our trained checkpoints for results reproducibility.
 |:----:|:-----:|:-----:|
 | NYUv2 | [Model](https://drive.google.com/drive/folders/1f7o1t3ShAqXiYAhgHPJTlLtaDCT2aTIN)  | 58.3/59.3 |
 
-### Put [segformer pre-trained weight](https://connecthkuhk-my.sharepoint.com/personal/xieenze_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxieenze%5Fconnect%5Fhku%5Fhk%2FDocuments%2Fsegformer%2Ftrained%5Fmodels&ga=1). on the following file.
+Put the [segformer pre-trained weight](https://connecthkuhk-my.sharepoint.com/personal/xieenze_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxieenze%5Fconnect%5Fhku%5Fhk%2FDocuments%2Fsegformer%2Ftrained%5Fmodels&ga=1). in the following file (We use segformer.b5.640x640.ade.160k.pth in our paper).
 ```shell
 vim ./RGBD/toolbox/models/segformermodels/backbones/mix_transformer_ourprompt_proj.py   # line 457
 ```
