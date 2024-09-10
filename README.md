@@ -118,32 +118,8 @@ For additional training options, such as utilizing different hyper-parameters, p
 ### Evaluation
 Please utilize the script provided below:
 ```shell
-# run for HC-STVG
-python3 -m torch.distributed.launch \
- --nproc_per_node=8 \
- scripts/test_net.py \
- --config-file "experiments/hcstvg.yaml" \
- INPUT.RESOLUTION 420 \
- MODEL.WEIGHT [Pretrained Model Weights] \
- OUTPUT_DIR output/hcstvg
- 
-# run for HC-STVG2
-python3 -m torch.distributed.launch \
- --nproc_per_node=8 \
- scripts/test_net.py \
- --config-file "experiments/hcstvg2.yaml" \
- INPUT.RESOLUTION 420 \
- MODEL.WEIGHT [Pretrained Model Weights] \
- OUTPUT_DIR output/hcstvg2
-
-# run for VidSTG
-python3 -m torch.distributed.launch \
- --nproc_per_node=8 \
- scripts/test_net.py \
- --config-file "experiments/vidstg.yaml" \
- INPUT.RESOLUTION 420 \
- MODEL.WEIGHT [Pretrained Model Weights] \
- OUTPUT_DIR output/vidstg
+# run for NYUV2
+python evaluate_nyuv2.py --logdir "MODEL PATH"
 ```
 
 ### Pretrained Model Weights
