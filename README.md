@@ -58,8 +58,8 @@ python evaluate.py --logdir "MODEL PATH"
 |CMX-B5 (MS) | MiT-B5 | 181.1 |   181.1 | 56.9|
 |CMXNeXt (MS) | MiT-B4 |  119.6 |  119.6 |  56.9|
 |DFormer-L (MS) | DFormer-L | 39.0 | 39.0 | 57.2|
-|DPLNet (SS) (Ours) | MiT-B5 | **7.15** | **7.15** | 58.3|
-|DPLNet (MS) (Ours)| MiT-B5 | **7.15** | **7.15** | **59.3**|
+|DPLNet (SS) (Ours) | MiT-B5 | 88.58 | **7.15** | 58.3|
+|DPLNet (MS) (Ours)| MiT-B5 | 88.58 | **7.15** | **59.3**|
 
 ### Results on SUN RGB-D (RGB-D Semantic Segmentation)
 |  Methods   | Backbone | Total Params | Learnable Params |mIoU|
@@ -69,8 +69,8 @@ python evaluate.py --logdir "MODEL PATH"
 |CMXNeXt (MS) | MiT-B4 |  119.6 |  119.6 |   51.9|
 |DFormer-B (MS) | DFormer-B | 29.5 | 29.5 | 51.2|
 |DFormer-L (MS) | DFormer-L | 39.0 | 39.0 | 52.5|
-|DPLNet (SS) (Ours) | MiT-B5 | **7.15** | **7.15** | 52.1|
-|DPLNet (MS) (Ours)| MiT-B5 | **7.15** | **7.15** | **52.8**|
+|DPLNet (SS) (Ours) | MiT-B5 | 88.58 | **7.15** | 52.1|
+|DPLNet (MS) (Ours)| MiT-B5 | 88.58| **7.15** | **52.8**|
 
 ### Results on MFNet (RGB-T Semantic Segmentation)
 |  Methods   | Backbone | Total Params | Learnable Params |mIoU|
@@ -81,7 +81,7 @@ python evaluate.py --logdir "MODEL PATH"
 |CMX-B2| MiT-B2| 66.6 | 66.6 |  58.2|
 |CMX-B4 | MiT-B4|  139.9 | 139.9 | 59.7|
 |CMNeXt| MiT-B4 |  119.6 |  119.6 | **59.9**|
-|DPLNet (Ours)| MiT-B5 | **7.15** | **7.15** | 59.3|
+|DPLNet (Ours)| MiT-B5 | 88.58 | **7.15** | 59.3|
 
 ### Results on PST900 (RGB-T Semantic Segmentation)
 |  Methods   | Backbone | Total Params | Learnable Params |mIoU|
@@ -91,14 +91,14 @@ python evaluate.py --logdir "MODEL PATH"
 |GEBNet| ConvNeXt-S|  - |  - |  81.2|
 |EGFNet-ConvNext| ConvNeXt-B | - |   - | 85.4|
 |CACFNet| ConvNeXt-B |  198.6 |  198.6 | 86.6|
-|DPLNet (Ours)| MiT-B5 | **7.15** | **7.15** | **86.7**|
+|DPLNet (Ours)| MiT-B5 | 88.58 | **7.15** | **86.7**|
 
 ### Results on MVSeg (RGB-T Video Semantic Segmentation)
 |  Methods   | Backbone | Total Params | Learnable Params |mIoU|
 |  ----:  | :----:  | :----: | :----: |:----: |
 |EGFNet| ResNet-152 | 201.3 |   201.3 | 53.4|
 |MVNet| - | 88.4 |   88.4 | 54.5|
-|DPLNet (Ours)| MiT-B5 | **7.15** | **7.15** | **57.9**|
+|DPLNet (Ours)| MiT-B5 | 88.58 | **7.15** | **57.9**|
 
 ## Acknowledgement
 This repository is partially based on our previous open-source release [EGFNet](https://github.com/ShaohuaDong2021/EGFNet).
